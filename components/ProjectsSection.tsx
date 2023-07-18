@@ -6,27 +6,51 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "My-Portfolio",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "A portfolio exemplifies your beliefs, skills, qualifications, education, training, and experiences. The tech-stack used is React, MUI, Three.JS & Firebase.",
+    image: "/portfolio.PNG",
+    github: "https://github.com/Manu577228/manu-portfolio",
+    link: "https://manu-portfolio-3d.web.app/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "My-Blog",
+    description:
+      "The purpose of a blog is to create a more engaging website for your brand. The tech-stack used is Next.js & React.",
+    image: "/blog.jpeg",
+    github: "https://github.com/Manu577228/Blog-Using-Next.JS",
+    link: "https://manu-blog.vercel.app/",
   },
   {
-    name: "Kator Family Photos",
+    name: "Note-Taking-App",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Note-Taking-App is a web app that let's us digitally take note of anything we wish. The tech-stack used is Next.JS, React.JS & Mongo-DB.",
+    image: "/note-taking-app.jpg",
+    github: "https://github.com/Manu577228/Next-JS--Mongo-DB--CRUD-App",
+    link: "https://github.com/Manu577228/Next-JS--Mongo-DB--CRUD-App/blob/master/Sample-UI-1.PNG/",
+  },
+  {
+    name: "TODO-App",
+    description: "A Full-stack ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or list everything that we have to do. The tech-stack used is Mongo-DB, React.JS, Express.JS & Node.JS.",
+    image: "/todo.jpg",
+    github: "https://github.com/Manu577228/MERN-Todo-App",
+    link: "https://github.com/Manu577228/MERN-Todo-App",
+  },
+  {
+    name: "Admin-Dashboard",
+    description:
+      "My Blog using Admin Dashboard. The tech-stack used is Angular Material, Material Icons, SCSS, RXJS, Angular Routing & Angular Services",
+    image: "/admin-dashboard.jpg",
+    github: "https://github.com/Manu577228/Angular-AdminDashboard-Blog",
+    link: "https://github.com/Manu577228/Angular-AdminDashboard-Blog",
+  },
+  {
+    name: "Food-Delivery-App",
+    description:
+      "Food delivery apps are third-party delivery services hosted on mobile applications that restaurants or retailers partner with to showcase their menu and food offerings.The tech-stack used is React-Native.",
+    image: "/food-delivery.webp",
+    github: "https://github.com/Manu577228/Food-Delivery-App-Native",
+    link: "https://github.com/Manu577228/Food-Delivery-App-Native",
   },
 ]
 
@@ -34,7 +58,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projects
+       Some of my Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
