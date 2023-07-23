@@ -52,6 +52,22 @@ const projects = [
     github: "https://github.com/Manu577228/Food-Delivery-App-Native",
     link: "https://github.com/Manu577228/Food-Delivery-App-Native",
   },
+    {
+    name: "Weather-App",
+    description:
+      "Through the Weather app, you can check the current weather, see the hourly forecast and view the 10-day forecast. The tech-stack used is Python.",
+    image: "/weather.png",
+    github: "https://github.com/Manu577228/Python-Weather-App",
+    link: "https://github.com/Manu577228/Python-Weather-App",
+  },
+    {
+    name: "Student-Information-System",
+    description:
+      "Student information systems provide capabilities for registering students in courses; documenting grading, transcripts of academic achievement and co-curricular activities. The tech-stack used is React, My-SQL & Java SpringBoot.",
+    image: "/student-details-app.png",
+    github: "https://github.com/Manu577228/React-SpringBoot-Student-Details-App",
+    link: "https://github.com/Manu577228/React-SpringBoot-Student-Details-App",
+  },
 ]
 
 const ProjectsSection = () => {
