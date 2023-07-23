@@ -11,6 +11,7 @@ const skills = [
   { skill: "Next.JS" },
   { skill: "Angular" },
   { skill: "Python" },
+  { skill: "SpringBoot & Hibernate" },
   { skill: "Jenkins" },
   { skill: "Firebase" },
   { skill: "Git/ GitHub / GitLab/ BitBucket" },
