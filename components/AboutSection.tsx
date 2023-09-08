@@ -10,7 +10,7 @@ const skills = [
   { skill: "Node.JS/ Express.JS " },
   { skill: "Next.JS" },
   { skill: "Angular" },
-  { skill: "Python" },
+  { skill: "Java" },
   { skill: "Mongo-DB & My-SQL" },
   { skill: "SpringBoot & Hibernate" },
   { skill: "Jenkins" },
