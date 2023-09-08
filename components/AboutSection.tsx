@@ -15,6 +15,8 @@ const skills = [
   { skill: "SpringBoot & Hibernate" },
   { skill: "Jenkins" },
   { skill: "Firebase" },
+  { skill: "Data Structures & Algo" },
+  { skill: "Problem Solving" },
   { skill: "Git/ GitHub / GitLab/ BitBucket" },
   { skill: "Bootstrap/ MUI / Tailwind-CSS/ Ant-Design/ SCSS" },
 ]
