@@ -3,6 +3,12 @@ import "../styles/globals.css"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import { ThemeProvider } from "next-themes"
+// src/app/layout.js
+
+import './globals.css'
+
+//👇 Import Open Sans font
+import { Montserrat } from 'next/font/google'
 
 export default function RootLayout({
   children,
@@ -10,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={Montserrat.className}>
       {/*
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
